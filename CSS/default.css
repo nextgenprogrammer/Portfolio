@@ -176,6 +176,12 @@ button:hover {
 #quote
 {
     text-align: center;
+    font-family: 'Barlow', sans-serif;
+}
+.author{
+    padding-top: 5px;
+    font-family: 'Barlow', sans-serif;
+    font-style: italic;
 }
 
 /* Skills Table */
