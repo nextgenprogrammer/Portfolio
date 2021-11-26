@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="CSS/default.css">
+    <script src="JS/default.js"></script>
+    
+    <title>Portfolio - Saurabh Kulkarni</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="img-frame">
+                <img src="Artificats/propic.jpg" alt="profile_photo-SaurabhKulkarni">
+            </div>
+            <div class="title-details">
+                <div class="header-name">Saurabh Kulkarni</div>
+                <div class="header-title">Automation Developer</div>
+                <div class="contact">
+                    <img src="Artificats/mail-icon.jpg" alt="mail-icon" class="mail-icon">
+                    codewithsaurabh@gmail.com
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/codewithsaurabh/"><img src="Artificats/linkedin-logo.jpg" alt="linkedin" class="link"></a>
+                    <a href="https://github.com/tobeaprogrammer"><img src="Artificats/github-logo.jpg" alt="github" class="link"></a>
+                </div>
+            </div>
+        </div>
+        <div class="toggler">
+            <div class="nav-item-cover"><button class="nav-item" onclick="DisplayItem('about-me')">About Me</button></div>
+            <div class="nav-item-cover"><button class="nav-item" onclick="DisplayItem('Skills')">Skills</button></div>
+            <div class="nav-item-cover"><button class="nav-item" onclick="DisplayItem('Projects')">Projects</button></div>
+            <div class="nav-item-cover"><button class="nav-item" onclick="DisplayItem('Resume')">Resume</button></div>
+        </div>
+        <div class="display-items-container">
+            <div id="quote" class="display-item" style="display: block;">
+                "Programming isn't about what you know; it's about what you can figure out.” <br/><i>- Chris Pine</i>
+            </div>
+            <div id="about-me" class="display-item" style="display: none;">
+                A highly capable SDET (Software Development Engineer in Test) Professional who enjoys building creative solutions, 
+                team work and collaboration, as well as self learning. Offering creative problem solving skills with experience in 
+                analysis. Currently looking for a new career opportunity to work in a progressive and challenging environment with 
+                learning opportunities in an innovative company.
+                <br/><br/>
+                <h3>Certifications :</h3>
+                <ul>
+                    <li>ISTQB [Seed InfoTech] [ ID : 44312]</li>
+                    <li>SDET [Codility]</li>
+                </ul>
+                <br/>
+                <h3>Hobbies & Interests</h3>
+                <ul>
+                    <li>Reading Books and Blogs</li>
+                    <li>Exploring and trying Hands-On on new technologies and tools</li>
+                    <li>Attending Workshops</li>
+                    <li>Analytical Problem Solving</li>                        
+                    <li>Landscape and Bird Photography</li>
+                </ul>
+            </div>
+            <div id="Skills" class="display-item" style="display: none;">
+                <h2 style="text-align:center;"> Skillset</h2><br/>
+                <table>
+                    <tr>
+                        <th>Programming Languages</th>
+                        <td>C#, Java, HTML, VBScript, Gherkin</td>
+                    </tr>
+                    <tr>
+                        <th>Design Patterns</th>
+                        <td>Facade, Page Object Model [POM], Singleton, Fluent</td>
+                    </tr>
+                    <tr>
+                        <th>Tools</th>
+                        <td>Visual Studio 2017, Eclipse Mars, JIRA, Postman (Canary Version), SOAP UI, RestSharp, Newman, Selenium IDE, Specflow</td>
+                    </tr>
+                    <tr>
+                        <th>Frameworks</th>
+                        <td>Selenium, Data Driven Framework, BDD, Hybrid (Data Driven + Keyword Driven + Modular), NUnit, TestNG</td>
+                    </tr>
+                    <tr>
+                        <th>CI / CD</th>
+                        <td>GITHUB Enterprise, Jenkins, Nunit Console Runner</td>
+                    </tr>
+                    <tr>
+                        <th>OS</th>
+                        <td>Windows 10, Windows 7, Ubuntu, CentOS, MacOS</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="Projects" class="display-item" style="display: none;">
+                Project 1<br/>
+                Project 2<br/>
+            </div>
+            <div id="Resume" class="display-item" style="display: none;">
+                <h3 style="text-align: center;">Click on the below icon to download the resume.</h3>
+                <a href="Artificats/propic.jpg" download>
+                    <img src="Artificats/file-icon.jpg">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
