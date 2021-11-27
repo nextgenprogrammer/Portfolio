@@ -158,6 +158,7 @@ button:hover {
     border-radius: 50px;
     box-sizing:border-box;
     border:orangered dashed 3px;
+    background-color: rgba(0,1,1,0.30);
 }
 
 
@@ -165,22 +166,19 @@ button:hover {
 .display-items-container{
     display: flex;
     align-items: top;
-    justify-content: center;
-    padding-left: 8%;
+    /* justify-content: center; */
+    /* padding-left: 8%; */
     
     
     color:whitesmoke;
 }
 
-.display-items{
-    text-align: center;
-    justify-content: center;
-}
 
 /* Quote */
 #quote
 {
     text-align: center;
+    padding-left: 10% ;
     font-family: 'Barlow', sans-serif;
 }
 .author{
@@ -198,20 +196,64 @@ table,th,td{
 
 /* Resume */
 #Resume{
+    padding-left: 20%;
     text-align: center;
+    justify-content: center;
 }
 #Resume img{
     height: 75px;
     width: 65px;
     padding: 10px;
 }
-/* #Resume img:hover{
-    border:orangered dashed 3px;
-} */
 
 
 .fileicon-container:hover{
     border-radius: 50px;
     box-sizing:border-box;
     border:orangered dashed 3px
+}
+
+/* Projects */
+.tile-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tile-cell{
+    padding: 2%;
+    padding-bottom: 2%;
+    float: left;
+    text-align: center;
+}
+
+.tile{
+    height: 150px;
+    width: 270px;
+    border: 5px solid white;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.tile-header{
+    color: whitesmoke;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding:20px;
+}
+
+.tile-desc{
+    padding-top: 20px;
+    text-align: center;
+    color: #cc926c;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.tile:hover{
+    background-color: rgba(0,1,1,0.30);
+    border: 5px dashed orangered;
 }
