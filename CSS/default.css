@@ -196,9 +196,10 @@ table,th,td{
 
 /* Resume */
 #Resume{
-    padding-left: 20%;
     text-align: center;
+    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 #Resume img{
     height: 75px;
